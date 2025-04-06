@@ -14,7 +14,7 @@ export function App() {
         <view className="counter">
           <text className="Title">Hello, Emin</text>
           <text className="">Lorem, ipsum dolor.</text>
-          <view className="content">
+          <view className="flex items-center justify-center gap-5">
             <view className="counterBtn" bindtap={() => handleCount(-1)}>
               <text className="counterBtnText">-</text>
             </view>
